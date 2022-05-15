@@ -1,0 +1,1 @@
+/home/amit/AndroidStudioProjects/Apps/buildSrc/build/classes/kotlin/main/DependenciesKt.class:/home/amit/AndroidStudioProjects/Apps/buildSrc/build/classes/kotlin/main/Deps.class
