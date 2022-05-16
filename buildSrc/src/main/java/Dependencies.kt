@@ -46,6 +46,31 @@ object Deps {
                 handler.add(TEST_IMPLEMENTATION, androidx_expresso)
         }
 
+        private val gson_dependencies = "com.google.code.gson:gson:2.9.0"
+        fun addGsonDependencies(handler: DependencyHandler){
+                handler.add(IMPLEMENTATION, gson_dependencies)
+        }
+
+        private val retrofit_dependency = "com.squareup.retrofit2:retrofit:2.9.0"
+        private val retrofit_gson = "com.squareup.retrofit2:converter-gson:2.9.0"
+
+        fun addRetrofitDependencies(handler: DependencyHandler){
+                handler.add(IMPLEMENTATION, retrofit_dependency)
+                handler.add(IMPLEMENTATION, retrofit_gson)
+        }
+
+        private val kotlinCoroutineDep = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9"
+
+        fun addKotlinCoroutineDependency(handler: DependencyHandler){
+                handler.add(IMPLEMENTATION, kotlinCoroutineDep)
+        }
+        private val LOGGING_INTERCEPTOR = "com.squareup.okhttp3:logging-interceptor:3.9.0"
+        fun addLoggingInterceptorDep(handler: DependencyHandler){
+                handler.add(IMPLEMENTATION, LOGGING_INTERCEPTOR)
+        }
+
+
+
 
 
 }

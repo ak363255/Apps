@@ -44,4 +44,6 @@ android {
 dependencies {handler ->
     Deps.INSTANCE.addAndroidxCoreDependencies(handler)
     Deps.INSTANCE.addComposeDependencies(handler)
+    Deps.INSTANCE.addRetrofitDependencies(handler)
+    implementation project(':network-module')
 }

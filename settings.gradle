@@ -19,3 +19,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Apps"
 include ':app'
+include ':network-module'
+include ':shared-module'
